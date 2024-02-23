@@ -9,11 +9,10 @@ body {
 
 header {
   height: 40px;
-  position: absolute;
-  right:4px;
+  text-align: right;
 }
 
-#instagram-link {
+.social-link {
   padding: 4px;
   display: block;
   color: #000;
@@ -21,7 +20,7 @@ header {
   font-size: 0.9em;
 }
 
-a#instagram-link:hover {
+a.social-link:hover {
   color: #555;
 }
 
@@ -29,10 +28,8 @@ a#instagram-link:hover {
 /* MAIN CONTENT */
 
 main {
-  position: absolute;
-  top: 40px;
+  margin-top: 60px;
   width: 100%;
-  height: calc(100% - 40px);
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -42,10 +39,11 @@ main {
 h1 {
   font-size: 10em;
   letter-spacing: 0.2em;
-  font-family: 'Bahianita', cursive;
+  font-family: 'Bahianita', sans-serif;
 }
 
 p {
+  margin-top: 40px;
   font-size: 1.5em;
   font-weight: bold;
   font-family: 'Sen', sans-serif;
